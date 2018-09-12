@@ -3,58 +3,50 @@ import { Atividade } from './atividade-model';
 export const AtividadesLetras: Atividade[] = [
     {
         id: 1,
-        descricao: 'Você é bom de matemática? Então nos ajude com essa continha:',
-        imagem: 'assets/images/doismaisdois.png',
+        descricao: 'Complete a palavra:',
+        imagem: 'assets/images/bola-palavra.png',
         resposta: 4,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Três',
-                imagem: 'assets/images/tres.png'
+                imagem: 'assets/images/BO.png'
             },
             {
                 id: 2,
-                descricao: 'Cinco',
-                imagem: 'assets/images/seis.png'
+                imagem: 'assets/images/BA.png'
             },
             {
                 id: 3,
-                descricao: 'Seis',
-                imagem: 'assets/images/cinco.png'
+                imagem: 'assets/images/LO.png'
             },
             {
                 id: 4,
-                descricao: 'Quatro',
-                imagem: 'assets/images/quatro.png'
+                imagem: 'assets/images/LA.png'
             }
         ]
     },
     {
         id: 2,
-        descricao: 'Qual a cor da maçã?',
-        imagem: 'assets/images/maca.png',
-        resposta: 2,
+        descricao: 'Complete a palavra:',
+        imagem: 'assets/images/banana-palavra.png',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                imagem: 'assets/images/NA.png'
             },
             {
                 id: 2,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
+                imagem: 'assets/images/NO.png'
             },
             {
                 id: 3,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                imagem: 'assets/images/BA.png'
             },
             {
                 id: 4,
-                descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
+                imagem: 'assets/images/LA.png'
             }
         ]
-    }
+    },
   ];

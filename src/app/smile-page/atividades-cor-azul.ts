@@ -56,5 +56,56 @@ export const AtividadesCorAzul: Atividade[] = [
                 imagem: 'assets/images/vermelho.jpg'
             }
         ]
+    },
+    {
+        id: 3,
+        descricao: 'Marque a bolinha azul:',
+        resposta: 3,
+        opcoes: [
+            {
+                id: 1,
+                imagem: 'assets/images/vermelho.jpg'
+            },
+            {
+                id: 2,
+                imagem: 'assets/images/verde.jpg'
+            },
+            {
+                id: 3,
+                imagem: 'assets/images/azul.jpg'
+            },
+            {
+                id: 4,
+                imagem: 'assets/images/amarelo.jpg'
+            }
+        ]
+    },
+    {
+        id: 4,
+        descricao: 'Qual desenho é azul?',
+        imagem: 'assets/images/azul.jpg',
+        resposta: 4,
+        opcoes: [
+            {
+                id: 1,
+                descricao: 'Coração',
+                imagem: 'assets/images/coracao.png'
+            },
+            {
+                id: 2,
+                descricao: 'Árvore',
+                imagem: 'assets/images/arvore.jpg'
+            },
+            {
+                id: 3,
+                descricao: 'Sol',
+                imagem: 'assets/images/sol.jpg'
+            },
+            {
+                id: 4,
+                descricao: 'Baleia',
+                imagem: 'assets/images/baleia.jpg'
+            }
+        ]
     }
   ];

@@ -1,13 +1,13 @@
 export class Atividade {
     id: number;
     descricao: string;
-    imagem: string;
+    imagem?: string;
     opcoes: Opcoes[];
     resposta: number;
 }
 
 export class Opcoes {
     id: number;
-    descricao: string;
+    descricao?: string;
     imagem: string;
 }

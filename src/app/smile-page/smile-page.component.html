@@ -18,7 +18,7 @@
             </a>
         </div>
 
-        <div *ngIf="selectContext" class="">
+        <div *ngIf="selectContext" class="select-context">
             <div class="principal-grid">
                 <div class="row" align="center">
                         <div class="col-sm-4">
@@ -93,7 +93,7 @@
                             <div class="col-sm-3">
                                 <a href="javascript:void(0);" (click)="onOptionClick(opcao.id)">
                                     <img class="option-image imgJogos" *ngIf="opcao && opcao.imagem" src="{{opcao.imagem}}"/>
-                                    <h2 class="option-description textoMenu">{{opcao.descricao}}</h2>
+                                    <h2 class="option-description textoMenu" *ngIf="opcao && opcao.descricao">{{opcao.descricao}}</h2>
                                 </a>
                             </div>
                         </ng-container>

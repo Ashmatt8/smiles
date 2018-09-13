@@ -14,7 +14,7 @@ export class DashboardComponent implements OnInit {
     newsLogo: string;
 
     constructor() {
-        this.logo = 'assets/images/smile-logo.png';
+        this.logo = 'assets/images/logo3.png';
         this.smileLogo = 'assets/images/smile.png';
         this.mithOrTrueLogo = 'assets/images/mitoverdade.png';
         this.newsLogo = 'assets/images/novidades.png';

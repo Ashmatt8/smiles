@@ -5,4 +5,5 @@ export class News {
     description: string;
     text: string;
     image: string;
+    link: string;
 } 

@@ -4,7 +4,7 @@ export const AtividadesContar: Atividade[] = [
     {
         id: 1,
         descricao: 'Quantas bolinhas tem?',
-        imagem: 'assets/images/icone_Vermelho3.png',
+        imagem: 'assets/images/Desenhos/icone_Vermelho3.png',
         resposta: 1,
         opcoes: [
             {

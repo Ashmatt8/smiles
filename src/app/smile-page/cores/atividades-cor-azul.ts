@@ -1,11 +1,11 @@
-import { Atividade } from './atividade-model';
+import { Atividade } from '../atividade-model';
 
-export const AtividadesCorVermelha: Atividade[] = [
+export const AtividadesCorAzul: Atividade[] = [
     {
         id: 1,
-        descricao: 'Qual a cor da maçã?',
-        imagem: 'assets/images/maca.png',
-        resposta: 2,
+        descricao: 'Qual a cor da baleia?',
+        imagem: 'assets/images/baleia.jpg',
+        resposta: 4,
         opcoes: [
             {
                 id: 1,
@@ -31,9 +31,9 @@ export const AtividadesCorVermelha: Atividade[] = [
     },
     {
         id: 2,
-        descricao: 'Qual a cor do Coração?',
-        imagem: 'assets/images/coracao.png',
-        resposta: 4,
+        descricao: 'Qual a cor do passarinho?',
+        imagem: 'assets/images/passaro-azul.jpg',
+        resposta: 2,
         opcoes: [
             {
                 id: 1,
@@ -42,25 +42,25 @@ export const AtividadesCorVermelha: Atividade[] = [
             },
             {
                 id: 2,
-                descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                descricao: 'Azul',
+                imagem: 'assets/images/azul.jpg'
             },
             {
                 id: 3,
-                descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
+                descricao: 'Verde',
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 4,
                 descricao: 'Vermelho',
                 imagem: 'assets/images/vermelho.jpg'
-            },
+            }
         ]
     },
     {
         id: 3,
-        descricao: 'Marque a bolinha vermelha:',
-        resposta: 1,
+        descricao: 'Marque a bolinha azul:',
+        resposta: 3,
         opcoes: [
             {
                 id: 1,
@@ -82,9 +82,9 @@ export const AtividadesCorVermelha: Atividade[] = [
     },
     {
         id: 4,
-        descricao: 'Qual desenho é vermelho?',
-        imagem: 'assets/images/vermelho.jpg',
-        resposta: 1,
+        descricao: 'Qual desenho é azul?',
+        imagem: 'assets/images/azul.jpg',
+        resposta: 4,
         opcoes: [
             {
                 id: 1,

@@ -1,11 +1,11 @@
-import { Atividade } from './atividade-model';
+import { Atividade } from '../atividade-model';
 
-export const AtividadesCorVerde: Atividade[] = [
+export const AtividadesCorVermelha: Atividade[] = [
     {
         id: 1,
-        descricao: 'Qual a cor do sapo?',
-        imagem: 'assets/images/sapo.jpg',
-        resposta: 1,
+        descricao: 'Qual a cor da maçã?',
+        imagem: 'assets/images/maca.png',
+        resposta: 2,
         opcoes: [
             {
                 id: 1,
@@ -30,15 +30,15 @@ export const AtividadesCorVerde: Atividade[] = [
         ]
     },
     {
-        id: 1,
-        descricao: 'Qual a cor da árvore?',
-        imagem: 'assets/images/arvore.jpg',
-        resposta: 2,
+        id: 2,
+        descricao: 'Qual a cor do Coração?',
+        imagem: 'assets/images/coracao.png',
+        resposta: 4,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
+                descricao: 'Amarelo',
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
                 id: 2,
@@ -52,15 +52,15 @@ export const AtividadesCorVerde: Atividade[] = [
             },
             {
                 id: 4,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                descricao: 'Vermelho',
+                imagem: 'assets/images/vermelho.jpg'
             },
         ]
     },
     {
         id: 3,
-        descricao: 'Marque a bolinha verde:',
-        resposta: 2,
+        descricao: 'Marque a bolinha vermelha:',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,
@@ -82,9 +82,9 @@ export const AtividadesCorVerde: Atividade[] = [
     },
     {
         id: 4,
-        descricao: 'Qual desenho é verde?',
-        imagem: 'assets/images/verde.jpg',
-        resposta: 2,
+        descricao: 'Qual desenho é vermelho?',
+        imagem: 'assets/images/vermelho.jpg',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,

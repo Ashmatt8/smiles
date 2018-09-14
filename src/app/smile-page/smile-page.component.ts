@@ -1,11 +1,12 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Atividade } from './atividade-model';
-import { AtividadesNumeros } from './atividades-numeros';
+import { AtividadesNumeros } from './numeros/atividades-numeros';
+import { AtividadesContar } from './numeros/atividades-contar';
 import { AtividadesLetras } from './atividades-letras';
-import { AtividadesCorVermelha } from './atividades-cor-vermelha';
-import { AtividadesCorVerde } from './atividades-cor-verde';
-import { AtividadesCorAmarela } from './atividades-cor-amarela';
-import { AtividadesCorAzul } from './atividades-cor-azul';
+import { AtividadesCorVermelha } from './cores/atividades-cor-vermelha';
+import { AtividadesCorVerde } from './cores/atividades-cor-verde';
+import { AtividadesCorAmarela } from './cores/atividades-cor-amarela';
+import { AtividadesCorAzul } from './cores/atividades-cor-azul';
 
 @Component({
     selector: 'app-smile-page',
@@ -25,10 +26,13 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     numberContextLogo: string;
     letterContextLogo: string;
     selectColor: boolean;
+    selectCalculo: boolean;
     redColorLogo: string;
     greenColorLogo: string;
     yellowColorLogo: string;
     blueColorLogo: string;
+    contarLogo:string;
+    somarLogo: string;
     isLastQuestion: boolean;
     message: string;
     initialTime: any;
@@ -46,6 +50,7 @@ export class SmilePageComponent implements OnInit, OnDestroy {
 
     // Setar mocks de atividades
     atividadesNumero = AtividadesNumeros;
+    atividadesContar = AtividadesContar;
     atividadesLetras = AtividadesLetras;
     atividadesCorVermelha = AtividadesCorVermelha;
     atividadesCorVerde = AtividadesCorVerde;
@@ -65,10 +70,13 @@ export class SmilePageComponent implements OnInit, OnDestroy {
         this.blueColorLogo = 'assets/images/azul.jpg';
         this.correctLogo = 'assets/images/correct.png';
         this.congratsLogo = 'assets/images/baloes.png';
+        this.contarLogo = 'assets/images/Desenhos/icone_Vermelho3.png';
+        this.somarLogo = 'assets/images/Letras_Numeros/icone_2+2.png';
         this.isFirst = true;
         this.isGameEnded = false;
         this.isGameStarted = false;
         this.selectColor = false;
+        this.selectCalculo = false;
         this.acertsAudio = new Audio();
         this.acertsAudio.src = 'assets/sounds/acerts-audio.mp3';
         this.errorAudio = new Audio();
@@ -98,16 +106,22 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     startGame(atividades: Atividade[]) {
         this.selectContext = false;
         this.selectColor = false;
+        this.selectCalculo = false;
         this.index = 0;
         this.atividades = atividades;
         this.atividadeAtiva = this.atividades[this.index];
         this.isGameStarted = true;
         this.initialTime = new Date().getTime();
     }
-
+    
     setColor() {
         this.selectContext = false;
         this.selectColor = true;
+    }
+    
+    setCalculo() {
+        this.selectContext = false;
+        this.selectCalculo = true;
     }
 
     onRestartButtonClick() {

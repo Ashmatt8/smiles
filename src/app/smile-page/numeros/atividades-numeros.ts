@@ -1,9 +1,9 @@
-import { Atividade } from './atividade-model';
+import { Atividade } from '../atividade-model';
 
 export const AtividadesNumeros: Atividade[] = [
     {
         id: 1,
-        descricao: 'Você é bom de matemática? Então nos ajude com essa continha:',
+        descricao: 'Nos ajude com essa continha:',
         imagem: 'assets/images/doismaisdois.png',
         resposta: 4,
         opcoes: [

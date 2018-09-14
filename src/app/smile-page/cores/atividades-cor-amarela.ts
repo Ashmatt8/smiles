@@ -1,11 +1,11 @@
-import { Atividade } from './atividade-model';
+import { Atividade } from '../atividade-model';
 
-export const AtividadesCorAzul: Atividade[] = [
+export const AtividadesCorAmarela: Atividade[] = [
     {
         id: 1,
-        descricao: 'Qual a cor da baleia?',
-        imagem: 'assets/images/baleia.jpg',
-        resposta: 4,
+        descricao: 'Qual a cor da banana?',
+        imagem: 'assets/images/banana.jpg',
+        resposta: 3,
         opcoes: [
             {
                 id: 1,
@@ -31,9 +31,9 @@ export const AtividadesCorAzul: Atividade[] = [
     },
     {
         id: 2,
-        descricao: 'Qual a cor do passarinho?',
-        imagem: 'assets/images/passaro-azul.jpg',
-        resposta: 2,
+        descricao: 'Qual a cor do sol?',
+        imagem: 'assets/images/sol.jpg',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,
@@ -42,25 +42,25 @@ export const AtividadesCorAzul: Atividade[] = [
             },
             {
                 id: 2,
+                descricao: 'Vermelho',
+                imagem: 'assets/images/vermelho.jpg'
+            },
+            {
+                id: 3,
                 descricao: 'Azul',
                 imagem: 'assets/images/azul.jpg'
             },
             {
-                id: 3,
+                id: 4,
                 descricao: 'Verde',
                 imagem: 'assets/images/verde.jpg'
             },
-            {
-                id: 4,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
-            }
         ]
     },
     {
         id: 3,
-        descricao: 'Marque a bolinha azul:',
-        resposta: 3,
+        descricao: 'Marque a bolinha amarela:',
+        resposta: 4,
         opcoes: [
             {
                 id: 1,
@@ -82,9 +82,9 @@ export const AtividadesCorAzul: Atividade[] = [
     },
     {
         id: 4,
-        descricao: 'Qual desenho é azul?',
-        imagem: 'assets/images/azul.jpg',
-        resposta: 4,
+        descricao: 'Qual desenho é amarelo?',
+        imagem: 'assets/images/amarelo.jpg',
+        resposta: 3,
         opcoes: [
             {
                 id: 1,
@@ -108,4 +108,4 @@ export const AtividadesCorAzul: Atividade[] = [
             }
         ]
     }
-  ];
+];

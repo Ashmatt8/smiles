@@ -28,7 +28,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="javascript:void(0);" (click)="startGame(atividadesNumero)">
+                            <a href="javascript:void(0);" (click)="setCalculo()">
                                     <img src="{{numberContextLogo}}" class="element-logo imagens"/>
                                     <h2 class="description textoMenu">Números</h2>
                             </a>
@@ -45,6 +45,11 @@
 
         <div *ngIf="selectColor" class="select-color">
             <div class="principal-grid">
+                <div class="row justify-content-md-center" align="center">
+                        <div class="col-sm-6">
+                            <h2 class="description textoMenu">Escolha uma cor!!</h2><br>
+                        </div>
+                </div>
                 <div class="row" align="center">
                         <div class="col-sm-3">
                             <a href="javascript:void(0);" (click)="startGame(atividadesCorVermelha)">
@@ -74,6 +79,31 @@
             </div>
         </div>
 
+        <div *ngIf="selectCalculo" class="select-color">
+            <div class="principal-grid">
+                <div class="row justify-content-md-center" align="center">
+                        <div class="col-sm-6">
+                            <h2 class="description textoMenu">Escolha uma opção!!</h2><br>
+                        </div>
+                </div>
+                <div class="row" align="center">
+                        <div class="col-sm-3">
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="javascript:void(0);" (click)="startGame(atividadesContar)">
+                                    <img src="{{contarLogo}}" class="element-logo imgJogos"/>
+                                    <h2 class="description textoMenu">Contar</h2>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="javascript:void(0);" (click)="startGame(atividadesNumero)">
+                                    <img src="{{somarLogo}}" class="element-logo imgJogos"/>
+                                    <h2 class="description textoMenu">Somar</h2>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
 
         <ng-container *ngIf="isGameStarted">
                <div class="question">

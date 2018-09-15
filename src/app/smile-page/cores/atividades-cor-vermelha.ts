@@ -4,107 +4,108 @@ export const AtividadesCorVermelha: Atividade[] = [
     {
         id: 1,
         descricao: 'Qual a cor da maçã?',
-        imagem: 'assets/images/maca.png',
-        resposta: 2,
+        imagem: 'assets/images/Desenhos/icone_Maca.png',
+        resposta: 4,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                descricao: 'Amarelo',
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
             },
             {
                 id: 2,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
+                descricao: 'Azul',
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
             },
             {
                 id: 3,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                descricao: 'Verde',
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
             },
             {
                 id: 4,
-                descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
+                descricao: 'Vermelho',
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             }
         ]
     },
     {
         id: 2,
         descricao: 'Qual a cor do Coração?',
-        imagem: 'assets/images/coracao.png',
-        resposta: 4,
+        imagem: 'assets/images/Desenhos/icone_Coração.png',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                descricao: 'Vermelho',
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             },
             {
                 id: 2,
                 descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
+				
             },
             {
-                id: 3,
+                id: 3,				
+                descricao: 'Amarelo',
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+            },
+            {
+                id: 4,				
                 descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
-            },
-            {
-                id: 4,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
-            },
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
+            }
         ]
     },
     {
         id: 3,
         descricao: 'Marque a bolinha vermelha:',
-        resposta: 1,
+        resposta: 2,
         opcoes: [
             {
                 id: 1,
-                imagem: 'assets/images/vermelho.jpg'
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
             },
             {
                 id: 2,
-                imagem: 'assets/images/verde.jpg'
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             },
             {
                 id: 3,
-                imagem: 'assets/images/azul.jpg'
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
             },
             {
                 id: 4,
-                imagem: 'assets/images/amarelo.jpg'
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
             }
         ]
     },
     {
         id: 4,
         descricao: 'Qual desenho é vermelho?',
-        imagem: 'assets/images/vermelho.jpg',
-        resposta: 1,
+        imagem: 'assets/images/Desenhos/icone_Vermelho.png',
+        resposta: 3,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Coração',
-                imagem: 'assets/images/coracao.png'
+                descricao: 'Sol',
+                imagem: 'assets/images/Desenhos/icone_Sol.png'
             },
             {
                 id: 2,
                 descricao: 'Árvore',
-                imagem: 'assets/images/arvore.jpg'
+                imagem: 'assets/images/Desenhos/icone_Arvore.png'
             },
             {
                 id: 3,
-                descricao: 'Sol',
-                imagem: 'assets/images/sol.jpg'
+                descricao: 'Coração',
+                imagem: 'assets/images/Desenhos/icone_Coração.png'
             },
             {
                 id: 4,
-                descricao: 'Baleia',
-                imagem: 'assets/images/baleia.jpg'
+                descricao: 'Bala',
+                imagem: 'assets/images/Desenhos/icone_Bala.png'
             }
         ]
     }

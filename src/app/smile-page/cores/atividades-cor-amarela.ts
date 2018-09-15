@@ -4,56 +4,56 @@ export const AtividadesCorAmarela: Atividade[] = [
     {
         id: 1,
         descricao: 'Qual a cor da banana?',
-        imagem: 'assets/images/banana.jpg',
-        resposta: 3,
+        imagem: 'assets/images/Desenhos/icone_Banana.png',
+        resposta: 1,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                descricao: 'Amarelo',
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
             },
             {
                 id: 2,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
+                descricao: 'Verde',
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
             },
             {
                 id: 3,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                descricao: 'Azul',
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
             },
             {
                 id: 4,
-                descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
+                descricao: 'Vermelho',
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             }
         ]
     },
     {
         id: 2,
         descricao: 'Qual a cor do sol?',
-        imagem: 'assets/images/sol.jpg',
-        resposta: 1,
+        imagem: 'assets/images/Desenhos/icone_Sol.png',
+        resposta: 2,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Amarelo',
-                imagem: 'assets/images/amarelo.jpg'
+                descricao: 'Vermelho',
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             },
             {
                 id: 2,
-                descricao: 'Vermelho',
-                imagem: 'assets/images/vermelho.jpg'
+                descricao: 'Amarelo',
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
             },
             {
                 id: 3,
-                descricao: 'Azul',
-                imagem: 'assets/images/azul.jpg'
+                descricao: 'Verde',
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
             },
             {
                 id: 4,
-                descricao: 'Verde',
-                imagem: 'assets/images/verde.jpg'
+                descricao: 'Azul',
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
             },
         ]
     },
@@ -64,47 +64,47 @@ export const AtividadesCorAmarela: Atividade[] = [
         opcoes: [
             {
                 id: 1,
-                imagem: 'assets/images/vermelho.jpg'
+                imagem: 'assets/images/Desenhos/icone_Azul.png'
             },
             {
                 id: 2,
-                imagem: 'assets/images/verde.jpg'
+                imagem: 'assets/images/Desenhos/icone_Verde.png'
             },
             {
                 id: 3,
-                imagem: 'assets/images/azul.jpg'
+                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
             },
             {
                 id: 4,
-                imagem: 'assets/images/amarelo.jpg'
+                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
             }
         ]
     },
     {
         id: 4,
-        descricao: 'Qual desenho é amarelo?',
-        imagem: 'assets/images/amarelo.jpg',
-        resposta: 3,
+        descricao: 'Qual desenho é da cor amarela?',
+        imagem: 'assets/images/Desenhos/icone_Amarelo.png',
+        resposta: 2,
         opcoes: [
             {
                 id: 1,
                 descricao: 'Coração',
-                imagem: 'assets/images/coracao.png'
+                imagem: 'assets/images/Desenhos/icone_Coração.png'
             },
             {
                 id: 2,
-                descricao: 'Árvore',
-                imagem: 'assets/images/arvore.jpg'
+                descricao: 'Sol',
+                imagem: 'assets/images/Desenhos/icone_Sol.png'
             },
             {
                 id: 3,
-                descricao: 'Sol',
-                imagem: 'assets/images/sol.jpg'
+                descricao: 'Bala',
+                imagem: 'assets/images/Desenhos/icone_Bala.png'
             },
             {
                 id: 4,
-                descricao: 'Baleia',
-                imagem: 'assets/images/baleia.jpg'
+                descricao: 'Árvore',
+                imagem: 'assets/images/Desenhos/icone_Arvore.png'
             }
         ]
     }

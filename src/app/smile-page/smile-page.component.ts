@@ -2,7 +2,10 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Atividade } from './atividade-model';
 import { AtividadesNumeros } from './numeros/atividades-numeros';
 import { AtividadesContar } from './numeros/atividades-contar';
-import { AtividadesLetras } from './atividades-letras';
+
+import { AtividadesSilaba } from './letras/atividades-silaba';
+import { AtividadesAlfabeto } from './letras/atividades-alfabeto';
+
 import { AtividadesCorVermelha } from './cores/atividades-cor-vermelha';
 import { AtividadesCorVerde } from './cores/atividades-cor-verde';
 import { AtividadesCorAmarela } from './cores/atividades-cor-amarela';
@@ -26,6 +29,7 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     numberContextLogo: string;
     letterContextLogo: string;
     selectColor: boolean;
+    selectLetra: boolean;
     selectCalculo: boolean;
     redColorLogo: string;
     greenColorLogo: string;
@@ -33,6 +37,8 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     blueColorLogo: string;
     contarLogo:string;
     somarLogo: string;
+    silabaLogo:string;
+    alfabetoLogo: string;
     isLastQuestion: boolean;
     message: string;
     initialTime: any;
@@ -51,7 +57,10 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     // Setar mocks de atividades
     atividadesNumero = AtividadesNumeros;
     atividadesContar = AtividadesContar;
-    atividadesLetras = AtividadesLetras;
+
+    atividadesSilaba = AtividadesSilaba;
+    atividadesAlfabeto = AtividadesAlfabeto;
+    
     atividadesCorVermelha = AtividadesCorVermelha;
     atividadesCorVerde = AtividadesCorVerde;
     atividadesCorAmarela = AtividadesCorAmarela;
@@ -72,10 +81,13 @@ export class SmilePageComponent implements OnInit, OnDestroy {
         this.congratsLogo = 'assets/images/baloes.png';
         this.contarLogo = 'assets/images/Desenhos/icone_Vermelho3.png';
         this.somarLogo = 'assets/images/Letras_Numeros/icone_2+2.png';
+        this.silabaLogo = 'assets/images/Letras_Numeros/icone_Bo--.png';
+        this.alfabetoLogo = 'assets/images/Letras_Numeros/icone_A.png';
         this.isFirst = true;
         this.isGameEnded = false;
         this.isGameStarted = false;
         this.selectColor = false;
+        this.selectLetra = false;
         this.selectCalculo = false;
         this.acertsAudio = new Audio();
         this.acertsAudio.src = 'assets/sounds/acerts-audio.mp3';
@@ -107,6 +119,7 @@ export class SmilePageComponent implements OnInit, OnDestroy {
         this.selectContext = false;
         this.selectColor = false;
         this.selectCalculo = false;
+        this.selectLetra = false;
         this.index = 0;
         this.atividades = atividades;
         this.atividadeAtiva = this.atividades[this.index];
@@ -122,6 +135,11 @@ export class SmilePageComponent implements OnInit, OnDestroy {
     setCalculo() {
         this.selectContext = false;
         this.selectCalculo = true;
+    }
+    
+    setLetra() {
+        this.selectContext = false;
+        this.selectLetra = true;
     }
 
     onRestartButtonClick() {

@@ -10,6 +10,7 @@ import { AboutPageModule } from './about-page/about-page.module';
 import { ContactPageModule } from './contact-page/contact-page.module';
 import { NotFoundModule } from './not-found/not-found.module';
 import { NewsModule } from './news-page/news.module'; 
+import { CollaboratorPageModule } from './collaborator-page/collaborator-page.module'; 
 
 export function loadDashboard() { return DashboardModule;}
 export function loadMithtruePageModule() { return MithtruePageModule;}
@@ -18,6 +19,7 @@ export function loadAboutPageModule() { return AboutPageModule;}
 export function loadContactPageModule() { return ContactPageModule;}
 export function loadNotFoundModule() { return NotFoundModule;}
 export function loadNotNewsModule() { return NewsModule;}
+export function loadCollaboratorPageModule() { return CollaboratorPageModule;}
 
 const routes: Routes = [
     { path: '', loadChildren: loadDashboard },
@@ -26,6 +28,7 @@ const routes: Routes = [
     { path: 'about', loadChildren: loadAboutPageModule },
     { path: 'contact', loadChildren:  loadContactPageModule },
     { path: 'news', loadChildren: loadNotNewsModule },
+    { path: 'collaborator', loadChildren: loadCollaboratorPageModule },
     { path: 'not-found', loadChildren: loadNotFoundModule },
     { path: '**', redirectTo: 'not-found' }
 ];

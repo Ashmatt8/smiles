@@ -9,18 +9,22 @@ export const AtividadesAlfabeto: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Abelha',
                 imagem: 'assets/images/Desenhos/icone_Abelha.png'
             },
             {
                 id: 2,
+                descricao: 'Banana',
                 imagem: 'assets/images/Desenhos/icone_Banana.png'
             },
             {
                 id: 3,
+                descricao: 'Sapo',
                 imagem: 'assets/images/Desenhos/icone_Sapo.png'
             },
             {
                 id: 4,
+                descricao: 'Sol',
                 imagem: 'assets/images/Desenhos/icone_Sol.png'
             }
         ]
@@ -32,18 +36,22 @@ export const AtividadesAlfabeto: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Banana',
                 imagem: 'assets/images/Desenhos/icone_Banana.png'
             },
             {
                 id: 2,
+                descricao: 'Abelha',
                 imagem: 'assets/images/Desenhos/icone_Abelha.png'
             },
             {
                 id: 3,
+                descricao: 'Bola',
                 imagem: 'assets/images/Desenhos/icone_Bola.png'
             },
             {
                 id: 4,
+                descricao: 'Maça',
                 imagem: 'assets/images/Desenhos/icone_Maca.png'
             }
         ]
@@ -56,18 +64,22 @@ export const AtividadesAlfabeto: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Maça',
                 imagem: 'assets/images/Desenhos/icone_Maca.png'
             },
             {
                 id: 2,
+                descricao: 'Abelha',
                 imagem: 'assets/images/Desenhos/icone_Abelha.png'
             },
             {
                 id: 3,
+                descricao: 'Laranja',
                 imagem: 'assets/images/Desenhos/icone_Laranja.png'
             },
             {
                 id: 4,
+                descricao: 'Bola',
                 imagem: 'assets/images/Desenhos/icone_Bola.png'
             }
         ]
@@ -79,18 +91,22 @@ export const AtividadesAlfabeto: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Laranja',
                 imagem: 'assets/images/Desenhos/icone_Laranja.png'
             },
             {
                 id: 2,
+                descricao: 'Sol',
                 imagem: 'assets/images/Desenhos/icone_Sol.png'
             },
             {
                 id: 3,
+                descricao: 'Árvore',
                 imagem: 'assets/images/Desenhos/icone_Arvore.png'
             },
             {
                 id: 4,
+                descricao: 'Bola',
                 imagem: 'assets/images/Desenhos/icone_Bola.png'
             }
         ]

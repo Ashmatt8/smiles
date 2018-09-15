@@ -8,18 +8,22 @@ export const AtividadesSilaba: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Sol',
                 imagem: 'assets/images/Desenhos/icone_Sol.png'
             },
             {
                 id: 2,
+                descricao: 'Árvore',
                 imagem: 'assets/images/Desenhos/icone_Arvore.png'
             },
             {
                 id: 3,
+                descricao: 'Coração',
                 imagem: 'assets/images/Desenhos/icone_Coração.png'
             },
             {
                 id: 4,
+                descricao: 'Bola',
                 imagem: 'assets/images/Desenhos/icone_Bola.png'
             }
         ]
@@ -55,18 +59,22 @@ export const AtividadesSilaba: Atividade[] = [
         opcoes: [
             {
                 id: 1,
+                descricao: 'Coração',
                 imagem: 'assets/images/Desenhos/icone_Coração.png'
             },
             {
                 id: 2,
+                descricao: 'Banana',
                 imagem: 'assets/images/Desenhos/icone_Banana.png'
             },
             {
                 id: 3,
+                descricao: 'Árvore',
                 imagem: 'assets/images/Desenhos/icone_Arvore.png'
             },
             {
                 id: 4,
+                descricao: 'Bala',
                 imagem: 'assets/images/Desenhos/icone_Bala.png'
             }
         ]

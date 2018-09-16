@@ -10,22 +10,22 @@ export const AtividadesCorVermelha: Atividade[] = [
             {
                 id: 1,
                 descricao: 'Amarelo',
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
                 id: 2,
                 descricao: 'Azul',
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             },
             {
                 id: 3,
                 descricao: 'Verde',
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 4,
                 descricao: 'Vermelho',
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             }
         ]
     },
@@ -38,23 +38,22 @@ export const AtividadesCorVermelha: Atividade[] = [
             {
                 id: 1,
                 descricao: 'Vermelho',
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             },
             {
                 id: 2,
                 descricao: 'Verde',
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
-				
+                imagem: 'assets/images/verde.jpg'
             },
             {
-                id: 3,				
+                id: 3,
                 descricao: 'Amarelo',
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
-                id: 4,				
+                id: 4,
                 descricao: 'Azul',
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             }
         ]
     },
@@ -65,26 +64,26 @@ export const AtividadesCorVermelha: Atividade[] = [
         opcoes: [
             {
                 id: 1,
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 2,
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             },
             {
                 id: 3,
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
                 id: 4,
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             }
         ]
     },
     {
         id: 4,
         descricao: 'Qual desenho é vermelho?',
-        imagem: 'assets/images/Desenhos/icone_Vermelho.png',
+        imagem: 'assets/images/vermelho.jpg',
         resposta: 3,
         opcoes: [
             {

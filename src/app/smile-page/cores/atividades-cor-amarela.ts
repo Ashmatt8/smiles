@@ -10,22 +10,22 @@ export const AtividadesCorAmarela: Atividade[] = [
             {
                 id: 1,
                 descricao: 'Amarelo',
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
                 id: 2,
                 descricao: 'Verde',
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 3,
                 descricao: 'Azul',
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             },
             {
                 id: 4,
                 descricao: 'Vermelho',
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             }
         ]
     },
@@ -38,22 +38,22 @@ export const AtividadesCorAmarela: Atividade[] = [
             {
                 id: 1,
                 descricao: 'Vermelho',
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             },
             {
                 id: 2,
                 descricao: 'Amarelo',
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             },
             {
                 id: 3,
                 descricao: 'Verde',
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 4,
                 descricao: 'Azul',
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             },
         ]
     },
@@ -64,26 +64,26 @@ export const AtividadesCorAmarela: Atividade[] = [
         opcoes: [
             {
                 id: 1,
-                imagem: 'assets/images/Desenhos/icone_Azul.png'
+                imagem: 'assets/images/azul.jpg'
             },
             {
                 id: 2,
-                imagem: 'assets/images/Desenhos/icone_Verde.png'
+                imagem: 'assets/images/verde.jpg'
             },
             {
                 id: 3,
-                imagem: 'assets/images/Desenhos/icone_Vermelho.png'
+                imagem: 'assets/images/vermelho.jpg'
             },
             {
                 id: 4,
-                imagem: 'assets/images/Desenhos/icone_Amarelo.png'
+                imagem: 'assets/images/amarelo.jpg'
             }
         ]
     },
     {
         id: 4,
         descricao: 'Qual desenho é da cor amarela?',
-        imagem: 'assets/images/Desenhos/icone_Amarelo.png',
+        imagem: 'assets/images/amarelo.jpg',
         resposta: 2,
         opcoes: [
             {

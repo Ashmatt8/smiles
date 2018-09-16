@@ -36,22 +36,18 @@ export const AtividadesAlfabeto: Atividade[] = [
         opcoes: [
             {
                 id: 1,
-                descricao: 'Banana',
                 imagem: 'assets/images/Desenhos/icone_Banana.png'
             },
             {
                 id: 2,
-                descricao: 'Abelha',
                 imagem: 'assets/images/Desenhos/icone_Abelha.png'
             },
             {
                 id: 3,
-                descricao: 'Bola',
                 imagem: 'assets/images/Desenhos/icone_Bola.png'
             },
             {
                 id: 4,
-                descricao: 'Maça',
                 imagem: 'assets/images/Desenhos/icone_Maca.png'
             }
         ]
@@ -87,28 +83,24 @@ export const AtividadesAlfabeto: Atividade[] = [
     {
         id: 4,
         descricao: 'Onde está a Bola?',
-        resposta: 4,
+        resposta: 3,
         opcoes: [
             {
                 id: 1,
-                descricao: 'Laranja',
                 imagem: 'assets/images/Desenhos/icone_Laranja.png'
             },
             {
                 id: 2,
-                descricao: 'Sol',
                 imagem: 'assets/images/Desenhos/icone_Sol.png'
             },
             {
                 id: 3,
-                descricao: 'Árvore',
-                imagem: 'assets/images/Desenhos/icone_Arvore.png'
+                imagem: 'assets/images/Desenhos/icone_Bola.png'
             },
             {
                 id: 4,
-                descricao: 'Bola',
-                imagem: 'assets/images/Desenhos/icone_Bola.png'
-            }
+                imagem: 'assets/images/Desenhos/icone_Arvore.png'
+            },
         ]
     },
   ];

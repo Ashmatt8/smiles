@@ -8,7 +8,6 @@ import { Evento } from './events-mock';
 export enum TipoConteudoEnum {
     NOTICIA = 'Notícias',
     EVENTO = 'Eventos',
-    ARTIGO = 'Artigos',
 }
 
 @Component({
@@ -21,17 +20,16 @@ export enum TipoConteudoEnum {
 export class NewsComponent implements OnInit {
     mithOrTrueLogo: string;
     tipoConteudo: string;
-    tipoConteudos = [TipoConteudoEnum.NOTICIA, TipoConteudoEnum.EVENTO, TipoConteudoEnum.ARTIGO];
+    tipoConteudos = [TipoConteudoEnum.NOTICIA, TipoConteudoEnum.EVENTO];
     noticias = Noticia;
     eventos = Evento;
-    artigos;
+    videos = false;
 
     constructor() {
 
     }
 
     ngOnInit() {
-        console.log("noticia",this.noticias);
         this.tipoConteudo = TipoConteudoEnum.NOTICIA;
     }
 
@@ -39,20 +37,15 @@ export class NewsComponent implements OnInit {
         this.noticias;
     }
 
-    onButtomConteudo(tipoConteudo: TipoConteudoEnum){
-        console.log("contexto", tipoConteudo);
+    onButtomConteudo(tipoConteudo: TipoConteudoEnum) {
         this.tipoConteudo = tipoConteudo;
 
-        if(tipoConteudo === TipoConteudoEnum.NOTICIA){
+        if (tipoConteudo === TipoConteudoEnum.NOTICIA) {
             this.noticias = Noticia;
             this.eventos = null;
-        }else if(tipoConteudo === TipoConteudoEnum.EVENTO){    
+        } else if (tipoConteudo === TipoConteudoEnum.EVENTO) {
             this.eventos = Evento;
             this.noticias = null;
-        }else if(tipoConteudo === TipoConteudoEnum.ARTIGO){ 
-            this.eventos = null;
-            this.noticias = null;
         }
-        
     }
 }

@@ -25,3 +25,37 @@
         }
     }
 }
+
+@media screen and (max-width: 768px ) {
+    .principal-box{
+        height: 150% !important;      
+    }
+    .text {
+        font-size: 17px !important;
+        margin: 5px 40px !important;
+    }
+    
+ }
+
+ @media screen and (max-width:425px){
+     
+    .principal-box{
+        height: 180% !important;      
+    }
+     
+    .text {
+        font-size: 14px !important;
+    }
+ }
+
+
+ @media screen and (max-width:325px){
+     
+    .principal-box{
+        height: 200% !important;      
+    }
+    
+   .text {
+       font-size: 13px !important;
+   }
+}

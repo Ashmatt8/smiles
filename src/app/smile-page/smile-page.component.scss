@@ -155,8 +155,8 @@
     }
     .imgJogos {
         width: 80px !important;
+        margin: 5px;
     }
-    
     .col-sm-3 {
         width: 50% !important;
     }
@@ -170,4 +170,10 @@
     .btn {
         padding: 5px 15px 5px 15px !important;
     }
+
 }
+@media screen and (max-width:px){
+    .logo {
+        width: 70%;
+    }
+ }

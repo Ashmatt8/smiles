@@ -59,13 +59,24 @@
 
  }
  @media screen and (max-width:425px){
-/*     .principal-box {
-        top: 0 !important;
-    } */
+    .logo {
+        width: 70%;
+    }
+    .principal-box {
+        height: 166%!important;
+    }
+    .footer-principal{
+        padding-right: 0px !important; 
+    }
+ }
+ @media screen and (max-width:375px){
+    .logo {
+        width: 70%;
+    }
  }
  @media screen and (max-width:575px){
     .principal-box {
-        height: 155% !important;
+        height: 155%;
     }
     .principal-grid {    
         top: 0 !important;

@@ -25,3 +25,44 @@
         }
     }
 }
+
+@media screen and (max-width: 768px ) {
+    .imagens {
+        width: 150px !important;
+    }
+    .imgJogos {
+        width: 130px !important;
+    }
+
+    .textoMenu {
+        font-size: 20px;
+    }
+
+    .question-image {
+        width: 130px !important;
+    }
+
+    .pergunta {
+        font-size: 21px !important;
+    }
+
+    .botao {
+        margin-top: 15px;
+    }
+
+    .reniciar {
+        top: 65px !important; 
+    }
+ }
+ @media screen and (max-width:425px){
+    .imagens {
+        width: 110px !important;
+    }
+    .principal-box{
+        height: 200% !important;        
+    }
+    .texto{
+        margin: 0px 20px !important;
+    }
+
+}

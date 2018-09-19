@@ -24,9 +24,10 @@ export class NewsComponent implements OnInit {
     noticias = Noticia;
     eventos = Evento;
     videos = false;
+    imagemVideo : string;
 
     constructor() {
-
+        this.imagemVideo = 'assets/images/crescerComSindromeDown.jpg';
     }
 
     ngOnInit() {

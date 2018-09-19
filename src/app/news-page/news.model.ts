@@ -3,7 +3,7 @@ export class News {
     title: string;
     date: string;
     description: string;
-    text: string;
+    text?: string;
     image: string;
     link: string;
 } 
